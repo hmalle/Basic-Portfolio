@@ -14,12 +14,14 @@ header
   padding: 50px;
   background-color: #ffffff;
   margin-bottom: 20px;
+  margin:auto;
+  border: 1px #cccccc;
 }
 .content
 {
   margin: auto;
   max-width: 960px;
-  min-height: 400px;
+  min-height: 300px;
   margin-bottom: 100px;
 }
 
@@ -32,22 +34,31 @@ footer
   text-align: center;
   border-top: 10px solid #499995;
 }
-
+nav
+{
+  width: 960px;
+  margin-left: 100px;
+}
 ul
 {
   list-style-type: none;
-  width: 960px;
-  margin: auto;
   text-align: center;
 }
 li:first-child
 {
   float: left;
+  padding: 0px 0px 20px 0px;
 }
 li
 {
   float: right;
   padding: 0px 5px 10px 0px;
+  margin-left : 10px;
+  font-size:18px;
+}
+li a
+{
+  color:#777777;
 }
 
 h1
@@ -55,20 +66,22 @@ h1
   font-family: Georgia, Times, Times New Roman, Serif;
   color: #ffffff;
   background-color: #499995;
-  font-size: 40px;
+  font-size:40px;
 }
 
 h2
 {
   font-size: 20px;
   color: #499995;
-  padding: 0px;
+  padding: 10px 20px 10px 10px;
 }
 
 h3
 {
+  text-align:center;
   font-size: 18px;
   color: #499995;
+   padding: 10px 20px 10px 15px;
 }
 
 .clearfix::after
@@ -84,7 +97,7 @@ section
   float: left;
   width: 650px;
   padding-right: 5px;
-  border: 1px #dddddd;
+  border: 2px solid #dddddd;
 }
 
 aside
@@ -93,9 +106,12 @@ aside
   float: right;
   width: 270px;
   padding: 0px;
-  border: 1px #dddddd; 
+  border: 2px solid #dddddd; 
 }
-
+.section2
+{
+  padding: 15px;
+}
 a 
 {
   text-decoration: none;
@@ -104,8 +120,8 @@ a
 .project
 {
   float: left;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 .myImage
 {
@@ -114,8 +130,20 @@ a
   height: 200px;
   width: 200px;
 }
+.myLinks
+{
+  margin:auto;
+  margin: 10px 30px 10px 30px;
+}
 img.logo
 {
   width: 60px;
   height: 60px;
+}
+input[type=submit]
+{
+  background-color:#499995;
+  display:inline-block;
+  padding: 10px 20px;
+  font-size:20px;
 }
