@@ -21,16 +21,15 @@ header
 {
   margin: auto;
   max-width: 960px;
-  min-height: 300px;
+  min-height: 400px;
   margin-bottom: 100px;
 }
 
-/* This works perfectly*/
 footer
 {
   background-color: #cccccc;
-  padding: 20px;
   width: 100%;
+  padding: 20px;
   text-align: center;
   border-top: 10px solid #499995;
 }
