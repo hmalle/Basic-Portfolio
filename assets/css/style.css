@@ -6,7 +6,7 @@ body
   color: #777777;
   background-image: url('../images/backgroundZebra.png');
   background-repeat: repeat-x repeat-y;
-  }
+}
 
 header
 {
@@ -47,7 +47,7 @@ header
 
 footer
 {
-  background-color: #cccccc;
+  background-color: #666666;
   width: 100%;
   padding: 20px;
   text-align: center;
@@ -103,14 +103,18 @@ h1
 h2
 {
   font-size: 20px;
+  color: #499995;
   line-height: 48px;
+  margin: 20px 10px 0px 20px;
   border-bottom: 3px solid #ddd;
 }
 
 h3
 {
   text-align:center;
+  color: #499995;
   font-size: 18px;
+  margin: 20px 20px 0px 20px;
   line-height: 48px;
   border-bottom: 2px solid #ddd;
 }
@@ -135,15 +139,15 @@ aside
 {
   background-color: #ffffff;
   float: right;
-  width: 270px;
-  padding: 0px;
+  max-width: 270px;
   border: 2px solid #dddddd; 
-  overflow: auto;
 }
+
 .section2
 {
   padding: 15px;
 }
+
 a 
 {
   text-decoration: none;
@@ -154,15 +158,18 @@ a
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 5px 25px;
+  margin: 20px 10px 25px;
   overflow: auto;
 }
+
 .project img
 {
   width: 100%;
   border-left: 20px;
+  border-right: 20px;
   opacity: 0.8;
 }
+
 .project p
 {
   position: absolute;
@@ -176,6 +183,7 @@ a
   text-decoration: none;
   /*margin-bottom: 5px;*/
 }
+
 .myImage
 {
   padding: 5px 10px 20px 10px;
@@ -183,18 +191,20 @@ a
   height: 200px;
   width: 200px;
 }
+
 .myLinks
 {
   margin: 20px 20px 20px 20px;
   border-bottom: 20px;
 }
+
 img.logo
 {
   width: 60px;
   height: 60px;
-  margin-top: 8px;
-  margin-right: 5px;
+  margin: 0px 5px 20px 5px;
 }
+
 input[type=submit]
 {
   background-color:#499995;
@@ -203,3 +213,22 @@ input[type=submit]
   font-size:20px;
 }
 
+.passage
+{
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+textarea
+{
+  height: 200px;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"]
+{
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+}
